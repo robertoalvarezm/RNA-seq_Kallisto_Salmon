@@ -10,9 +10,10 @@ output:
 
 ## Descargar datos FASTQ
 
+Usaremos archivos FASTQ que vienen del ejemplo de esta página.
+Son datos de Arabidopsis thaliana
 
-
-```{r eval=FALSE}
+```{bash eval=FALSE}
 #!/bin/bash
 mkdir data
 cd data
@@ -25,6 +26,17 @@ do
   cd ..; 
 done
 cd .. 
+```
+
+
+
+```{bash eval=FALSE}
+nano dl_tut_reads.sh
+```
+
+
+```{bash eval=FALSE}
+bash dl_tut_reads.sh
 ```
 
 
